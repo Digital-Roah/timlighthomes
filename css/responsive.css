@@ -1,0 +1,106 @@
+@media (max-width:992px) {
+    .about-picarea {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 350px;
+        min-height: 200px;
+      }
+
+      .welcome-area .welcome-content .welcome-textarea {
+        padding: 80px 80px 100px 120px;
+      } 
+}
+
+@media (max-width:480px) {
+
+    .banner-area .item .cover {
+        padding-top: 110px !important;
+        padding-left: 10px !important;
+      }
+
+      .banner-area .item .cover .header-content {
+        position: relative;
+        padding: 40px;
+        overflow: hidden;
+      }
+
+      .banner-area .item .cover .header-content .line {
+        -webkit-clip-path: polygon(0 0, 80% 0, 48% 100%, 0 100%);
+        clip-path: polygon(0 0, 80% 0, 48% 100%, 0 100%);
+      }
+
+    .banner-area .item .cover .header-content h2 {
+        font-size: 24px;
+      }
+      .banner-area .item .cover .header-content h1 {
+        font-size: 40px;
+        font-weight: 600;
+        margin: 5px 0 20px;
+        word-spacing: 3px;
+        color: #fff;
+      }
+
+      .banner-area .item .cover .header-content h4 {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 25px;
+        color: #fff;
+      }
+
+      .banner-area .owl-nav .owl-prev {
+        opacity: 0;
+      }
+
+      .banner-area .owl-nav .owl-next {
+        opacity: 0;
+      }
+
+      .banner-area:hover .owl-nav .owl-prev {
+        opacity: 1;
+      }
+
+      .banner-area:hover .owl-nav .owl-next {
+        opacity: 1;
+      }
+
+      .welcome-area .passion-subtext {
+        left: 15px;
+        top: 215px;
+      }
+
+      .welcome-area .welcome-header .welcome-intro {
+        margin-left: 30px;
+      }
+
+      .welcome-area .welcome-header .welcome-intro h2 {
+        font-size: 35px;
+    }
+
+    .about-picarea {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+      }
+
+      .welcome-area .welcome-content .welcome-textarea {
+        padding-top: 120px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+      }
+
+      .welcome-area .welcome-header {
+        padding-bottom: 20px;
+      }
+
+      .proposition-area h2:before {
+  width: 40px;
+  left: -50px;
+}
+
+.welcome-textarea h3 {
+    font-size: 30px;
+}
+      
+}
