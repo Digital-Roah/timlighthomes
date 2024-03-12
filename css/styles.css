@@ -254,7 +254,7 @@ body p {
   z-index: 99999;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0, 0.95);
+  background-color: rgba(0,0,0,0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -281,7 +281,7 @@ body p {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #afafaf;
   display: block;
   transition: 0.3s;
 }
