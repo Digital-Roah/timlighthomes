@@ -104,3 +104,39 @@
 }
       
 }
+
+@media (max-width:349px) {
+
+  .banner-area .item .cover .header-content {
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+  }
+
+  .banner-area .item .cover .header-content h2 {
+    font-size: 15px;
+  }
+  .banner-area .item .cover .header-content h1 {
+    font-size: 25px;
+  }
+
+  .banner-area .item .cover .header-content h4 {
+    font-size: 12px;
+  }
+
+  .overlay-content {
+    top: 10%;
+    width: 100%;
+    margin-top: 20px;
+    max-height: 250px;
+    overflow-y: auto;
+  }
+
+  .mobilenav-socials {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+}
