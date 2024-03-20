@@ -142,9 +142,22 @@
                         </div>
                     </div>
                  </div>
-            </div>                
+            </div>        
             <div class="item">
                 <img src="img/timpic-8.jpeg" alt="timlight banner 3">
+                <div class="cover">
+                    <div class="container">
+                        <div class="header-content">
+                            <div class="line animated bounceInLeft"></div>
+                            <h2>Peimagine Digital Experience with</h2>
+                            <h1>Intelligent Solutions</h1>
+                            <h4>We help entrepreneurs, start-ups and enterprises shape their ideas into products</h4>
+                        </div>
+                    </div>
+                 </div>
+            </div>        
+            <div class="item">
+                <img src="img/4BEDROOM-2.jpg" alt="timlight banner 3">
                 <div class="cover">
                     <div class="container">
                         <div class="header-content">
@@ -252,7 +265,79 @@
                 </div> 
             </section>
 
-            <br><br>
+            <section class="projects-area default-section">
+                 <div class="container">
+                  <div align="center">
+                    <h2 class="heading text-uppercase text-lato font-600">Latest Projects</h2>
+                    <div class="yellow-bot"></div>
+                  </div>
+
+                  <div class="my-slider">
+
+                    <div class="slide-item" align="center">
+                        <a href="#un" class="text-decoration-none">
+                       <img src="img/3BEDROOM-1.jpg" alt="bedroom" class="img img-slide">
+                       <div class="slide-overlay">
+                        <div class="overlay-content">
+                         <p>3 Bedroom Bungalow, Riyom Rayfield</p>
+                         <div align="center">
+                         <!-- <div class="yellow-inner-bot"></div> -->
+                         <a href="#un" class="btn btn-explore">View Project <i class="la la-arrow-right ms-1"></i></a>
+                      </div>
+                      </div>
+                     </div>
+                    </a>
+                    </div>
+
+                    <div class="slide-item" align="center">
+                        <a href="#un" class="text-decoration-none">
+                        <img src="img/3BEDROOM-2.jpg" alt="bedroom" class="img img-slide">
+                        <div class="slide-overlay">
+                            <div class="overlay-content">
+                             <p>3 Bedroom Bungalow, Riyom Rayfield</p>
+                             <div align="center">
+                           <!-- <div class="yellow-inner-bot"></div> -->
+                           <a href="#un" class="btn btn-explore">View Project <i class="la la-arrow-right ms-1"></i></a>
+                          </div>
+                          </div>
+                         </div>
+                    </a>
+                     </div>
+
+                     <div class="slide-item" align="center">
+                        <a href="#un" class="text-decoration-none">
+                        <img src="img/4BEDROOM-1.jpg" alt="bedroom" class="img img-slide">
+                        <div class="slide-overlay">
+                            <div class="overlay-content">
+                             <p>4 Bedroom Bungalow, Riyom Rayfield</p>
+                             <div align="center">
+                           <!-- <div class="yellow-inner-bot"></div> -->
+                           <a href="#un" class="btn btn-explore">View Project <i class="la la-arrow-right ms-1"></i></a>
+                          </div>
+                          </div>
+                         </div>
+                    </a>
+                     </div>
+
+                     <div class="slide-item" align="center">
+                        <a href="#un" class="text-decoration-none">
+                        <img src="img/4BEDROOM-2.jpg" alt="bedroom" class="img img-slide">
+                        <div class="slide-overlay">
+                            <div class="overlay-content">
+                             <p>4 Bedroom Bungalow, Riyom Rayfield</p>
+                             <div align="center">
+                           <!-- <div class="yellow-inner-bot"></div> -->
+                           <a href="#un" class="btn btn-explore">View Project <i class="la la-arrow-right ms-1"></i></a>
+                          </div>
+                          </div>
+                         </div>
+                    </a>
+                     </div>
+
+                  </div>
+
+                 </div>
+            </section>
            
         </main>
 
@@ -314,6 +399,47 @@
 });
 });
     </script>
+
+  <!-- Slick JS -->
+  <script src="slick-js/jquery-migrate-1.2.1.min.js"></script>
+  <!-- Slick Carousel JS -->
+  <script src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+  <!-- Project Slider -->
+  <script>
+    $('.my-slider').slick({
+centerMode: true,
+centerPadding: '60px',
+slidesToShow: 3,
+dots: true,
+dotsClass: 'myslider-dots',
+autoplay:true,
+speed: 2000,
+autoplaySpeed:4000,
+arrows: true,
+nextArrow: '<button class="slider-arrow next inverted"><i class="la la-arrow-right text-yellow"></i></button>',
+prevArrow: '<button class="slider-arrow prev inverted"><i class="la la-arrow-left text-yellow"></i></button>',
+responsive: [
+{
+ breakpoint: 800,
+ settings: {
+   arrows: true,
+   centerMode: true,
+   centerPadding: '40px',
+   slidesToShow: 2
+ }
+},
+{
+ breakpoint: 480,
+ settings: {
+   arrows: true,
+   centerMode: true,
+   centerPadding: '40px',
+   slidesToShow: 1
+ }
+}
+]
+});
+</script>
 
     </body>
 </html>
